@@ -1,0 +1,11 @@
+udp1.c is the client source code
+newserver.c and testserver.c are all server source code
+newserver.c corresponds to algorithm1
+testserver.c corresponds to algorithm2
+you can use the following command to compile our source file
+client side:
+gcc udp1.c -o udp1
+server side:
+gcc -pthread -g -o testserver testserver.c
+or
+gcc -pthread -g -o newserver newserver.c
